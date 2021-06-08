@@ -1982,8 +1982,7 @@ https://github.com/givanz/VvvebJs
       getSections: function() {
           var sections = [];
           var sectionList = 
-              $('> section, > header, > footer, > main, > nav', window.FrameDocument.body);
-          
+              $('> section, > header, > footer, > main, > nav, > div', window.FrameDocument.body);
               sectionList.each(function (i, node) {
               var id = node.id ? node.id : node.dataset.name;
               if (!id) {
