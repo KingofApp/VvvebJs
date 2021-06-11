@@ -1,7 +1,7 @@
 //Business & services block templates
 
 Vvveb.BlocksGroup['BusinessServices'] =
-    ["BusinessServices/home-seppo", "BusinessServices/services-seppo","BusinessServices/about-seppo", "BusinessServices/news-seppo", "BusinessServices/portfolio-seppo", "BusinessServices/pricing-seppo","BusinessServices/index-felix", "BusinessServices/about-felix","BusinessServices/features-felix" ];
+    ["BusinessServices/home-seppo", "BusinessServices/services-seppo","BusinessServices/about-seppo", "BusinessServices/news-seppo", "BusinessServices/portfolio-seppo", "BusinessServices/pricing-seppo","BusinessServices/index-felix", "BusinessServices/about-felix","BusinessServices/features-felix","BusinessServices/prices-felix", ];
 
 Vvveb.Blocks.add("BusinessServices/home-seppo", {
     name: "Home / welcome page",
@@ -1280,127 +1280,146 @@ image: "",
 html: `
 
 <body>
-    <div class="masthead" data-name="felix">
-      <style>
-    html{
-        margin: 0px;
-    }
-      .masthead {
-      background: url(http://paul-themes.com/html/felix-demo/img/bg/masthead.jpg) 	50% 0 no-repeat;
-      background-size: cover;
-      width: 100%;
-      height: 100vh;
-      }
-      .masthead:after {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100vh;
-      background-color: rgba(0,0,0,0.4);
-      }
-         
-        
-      .mobile * {
-      background-attachment: scroll!important;
-      }  
-      .masked {
-      position: relative;
-      }
-      
-      
-      .opener {
-      display: table-cell;
-      vertical-align: middle;
-      color: #fff;
-      /*padding: 13em 0 7em;*/
-      width: 100%;
-      height: 100vh;
-      }
-        
-      body {
-      font-family: 'Lora', serif;
-      font-size: 1em;
-      font-weight: 400;
-      line-height: 1.62;
-      color: #767676;
-      background-color: #fff;
-      width:100%;
-      height: 100%;
-      margin: 0px;
-      }
-      html {
-      -webkit-font-smoothing: antialiased;
-      }
-      
-        
-      ::selection {
-      background-color: #ff7b7b;
-      color: #fff;
-      }
-   
-      .control {
-      margin-top: 2.2em;
-      }
-        
-        .btn {
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 400;
-      font-size: 0.8em;
-      letter-spacing: 0.1em;
-      line-height: 1;
-      position: relative;
-      display: inline-block;
-      background: #ff7b7b;
-      border: 2px solid #ff7b7b;
-      padding: 1.4em 3em 1.4em;
-      border-radius: 3em;
-      text-decoration: none;
-      color: #fff;
-      text-transform: uppercase;
-      -webkit-transition: background-color .3s ease-out;
-      -o-transition: background-color .3s ease-out;
-      transition: background-color .3s ease-out;
-      }
-        
-      .play-home img {
-      display: inline-block;
-      width: 5.6em;
-      }
-        
-      .text-white {
-      color: #fff;
-      }
-        
-      h1, .h1 {
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 400;
-      padding-left: 12px;
-      font-size: 3.1em;
-      line-height: 1.1;
-      margin: 0 0 0.4em;
-     
-      }
-      </style>
-             <div class="opener rel-1 ">
-            <div class="container">
-              <h1 class="wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">Felix innovations</h1>
-              <p class="lead-text">Present your product, app, service and more</p>
-              <div class="control">
-                <a href="#request" class="btn" data-toggle="modal">Get start now</a>
-              </div>
-              <div class="control wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                <a href="https://www.youtube.com/watch?v=ANwf8AE3_d0" class="text-white play-home js-play">
-                  <img alt="" src="http://paul-themes.com/html/felix-demo/img/play-btn.png">
-                  <span>Watch vdeo</span>
-                </a>
-              </div>
-            </div>
-            </div>
-    </div>
-    
-  </body>
+  <div class="fondo" data-name="felix">
+      <div class=grey-opacity>
+          <style>
+              html{
+              margin: 0px;
+              }
+          .fondo{
+          background: url(http://paul-themes.com/html/felix-demo/img/bg/masthead.jpg) 	50% 0 no-repeat;
+          background-size: cover;
+          width: 100%;
+          height: 100vh;
+          
+          }
+          
+          .grey-opacity {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100vh;
+          background-color: rgba(0, 0, 0, 0.349);
+          
+          }
+              
+              
+          .mobile * {
+          background-attachment: scroll!important;
+          }  
+          .masked {
+          position: relative;
+          
+          }
+          body {
+          font-family: 'Lora', serif;
+          font-size: 1em;
+          font-weight: 400;
+          line-height: 1.62;
+          color: #767676;
+          background-color: #fff;
+          width:100%;
+          height: 100%;
+          margin: 0px;
+          
+          }
+          
+          .opener {
+          display: table-cell;
+          vertical-align: middle;
+          color: rgb(255, 255, 255);
+          /*padding: 13em 0 7em;*/
+          width: 100%;
+          height: 100vh;
+          
+          }
+              
+          
+          html {
+          -webkit-font-smoothing: antialiased;
+          
+          }
+          
+              
+          ::selection {
+          background-color: #ff7b7b;
+          color: #fff;
+          
+          }
+          .container{
+            margin-left: 10px;
+          }
+          .control {
+          margin-top: 2.2em;
+          
+          }
+              
+              .btn {
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 400;
+          font-size: 0.8em;
+          letter-spacing: 0.1em;
+          line-height: 1;
+          position: relative;
+          display: inline-block;
+          background: #ff7b7b;
+          border: 2px solid #ff7b7b;
+          padding: 1.4em 3em 1.4em;
+          border-radius: 3em;
+          text-decoration: none;
+          color: #fff;
+          text-transform: uppercase;
+          -webkit-transition: background-color .3s ease-out;
+          -o-transition: background-color .3s ease-out;
+          transition: background-color .3s ease-out;
+          z-index: 1;
+          }
+              
+          .play-home img {
+          display: inline-block;
+          width: 5.6em;
+          z-index: 1;
+          }
+              
+          .text-white {
+          color: #fff;
+          text-decoration: none;
+          
+          }
+              
+          h1, .h1{
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 400;
+          padding-left: 12px;
+          font-size: 3.1em;
+          line-height: 1.1;
+          margin: 0 0 0.4em;
+          
+          }
+          
+
+          </style>
+                  <div class="opener rel-1 ">
+                  <div class="container">
+                  <h1>Felix innovations</h1>
+                  <p>Present your product, app, service and more</p>
+                  <div class="control">
+                      <a href="#request" class="btn" data-toggle="modal">Get start now</a>
+                  </div>
+                  <div class="control wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                      <a href="https://www.youtube.com/watch?v=ANwf8AE3_d0" class="text-white play-home js-play">
+                      <img alt="" src="http://paul-themes.com/html/felix-demo/img/play-btn.png">
+                      <span>Watch vdeo</span>
+                      </a>
+                  </div>
+                  </div>
+                  </div>
+      </div>
+  </div>
+  
+</body>
 
 `,	
 	});
@@ -1871,4 +1890,441 @@ html: `
     </div>
   </body>
     `,	
+});
+Vvveb.Blocks.add("BusinessServices/prices-felix", {
+    name: "prices-felix",
+dragHtml: '<img width="128" height="128" src="' + Vvveb.baseUrl + 'icons/product.png">',
+image: "",
+html: `
+<body>
+  <div class="prices" data-name="felix-prices">
+    
+      <style>
+        h4,
+        .h4 {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 15px;
+          line-height: 1.4;
+          font-weight: 700;
+          color: #343434;
+          margin: 0;
+        }
+
+        html {
+          font-size: 87%;
+          -webkit-font-smoothing: antialiased;
+        }
+
+        .prices {
+          text-align: center;
+          background: url(http://paul-themes.com/html/felix-demo/img/bg/prices.jpg) 50% no-repeat;
+          background-size: cover;
+
+        }
+
+
+        .masked:after {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .mobile * {
+          background-attachment: scroll !important;
+        }
+
+        .masked {
+          position: relative;
+        }
+
+        .section {
+          padding: 7em 0;
+        }
+
+        body {
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          /* line-height: 1.42857143; */
+          color: #333;
+          background-color: #fff;
+        }
+
+        .mobile * {
+          background-attachment: scroll !important;
+        }
+
+        .masked {
+          position: relative;
+        }
+
+        .section {
+          padding: 7em 0;
+        }
+
+        .rel-1 {
+          position: relative;
+          z-index: 1;
+        }
+
+        .container {
+          margin-right: auto;
+          margin-left: auto;
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+
+        body {
+          font-family: 'Lora', serif;
+          font-size: 1em;
+          font-weight: 400;
+          line-height: 1.62;
+          color: #767676;
+        }
+
+        .row-price {
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+        }
+
+        .col-price {
+          text-align: left;
+          width: 100%;
+          max-width: 500px;
+          display: inline-block;
+          position: relative;
+          padding: 15px;
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .price-box {
+          position: relative;
+          background-color: #fff;
+        }
+
+        .price-inner {
+          padding-bottom: 40px;
+        }
+
+        .price-title {
+          padding: 2em 3em 1.7em;
+          margin-bottom: 0;
+          font-size: 0.7em;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          background: #f7f7f7;
+        }
+
+        .price {
+          font-family: 'Montserrat', sans-serif;
+          padding: 2em 3em;
+          line-height: 1;
+          color: #343434;
+          border-bottom: 1px solid #dddddd;
+        }
+
+        .price-amount {
+          font-size: 4em;
+        }
+
+        b,
+        strong {
+          font-weight: bold;
+        }
+
+        .price-features {
+          padding: 1em 3em;
+        }
+
+        .price-features ul {
+          margin-top: 0;
+        }
+
+        ul {
+          list-style: none;
+          padding-left: 0;
+        }
+
+        ul,
+        ol {
+          margin-top: 0px;
+          margin-bottom: 10px;
+        }
+
+        ul,
+        ol {
+          margin-top: 0;
+          margin-bottom: 10px;
+        }
+
+        ol li,
+        ul li {
+          margin-top: 10px;
+        }
+
+        .price-features ul li {
+          padding: 8px 0;
+        }
+
+        ::marker {
+          unicode-bidi: isolate;
+          font-variant-numeric: tabular-nums;
+          text-transform: none;
+          text-indent: 0px !important;
+          text-align: start !important;
+          text-align-last: start !important;
+        }
+
+        .price-footer {
+          padding: 0 3em;
+          text-align: center;
+        }
+
+        .mobile * {
+          background-attachment: scroll !important;
+        }
+
+        .btn-b-gray {
+          border-color: rgba(35, 35, 35, 0.1);
+          border-width: 2px;
+          background-color: transparent;
+          color: #343434;
+          width: 100%;
+        }
+
+        .btn {
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 400;
+          font-size: 0.8em;
+          letter-spacing: 0.1em;
+          position: relative;
+          display: inline-block;
+          /*background: #ff7b7b;*/
+          border: 2px solid #817a7a38;
+          padding: 1.4em 3em 1.4em;
+          border-radius: 3em;
+          text-decoration: none;
+          color: rgb(90, 88, 88);
+          text-transform: uppercase;
+          -webkit-transition: background-color .3s ease-out;
+          -o-transition: background-color .3s ease-out;
+          transition: background-color .3s ease-out;
+        }
+
+        .btn-b-primary {
+          border-color: #ff7b7b;
+          background-color: transparent;
+          color: #ff7b7b;
+          width: 100%;
+        }
+
+        .col-price.leading .price-title {
+          color: #fff;
+          background-color: #ff7b7b;
+        }
+
+        .price-currency {
+          display: inline-block;
+          vertical-align: top;
+          font-size: 2em;
+        }
+
+        .price-delimiter {
+          font-size: 3em;
+        }
+      </style>
+
+      <section id="prices" class="prices masked section" data-stellar-background-ratio="0.7">
+        <div class="container rel-1">
+          <div class="row-price">
+            <div class="col-price">
+              <div class="price-box">
+                <div class="price-body">
+                  <div class="price-inner">
+                    <header class="price-header">
+                      <h4 class="price-title">Basic</h4>
+                      <div class="price">
+                        <strong class="price-amount">Free</strong>
+                      </div>
+                    </header>
+                    <div class="price-features">
+                      <ul>
+                        <li>Enhanced Security</li>
+                        <li>No Time Tracking</li>
+                        <li>Enhanced Security</li>
+                      </ul>
+                    </div>
+                    <div class="price-footer">
+                      <a href="#request" class="btn btn-b-gray btn-block" data-toggle="modal">Select plan</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="leading col-price wow flipInY" style="visibility: visible">
+              <div class="price-box">
+                <div class="price-body">
+                  <div class="price-inner">
+                    <header class="price-header">
+                      <h4 class="price-title">Optimal</h4>
+                      <div class="price">
+                        <span class="price-currency">$</span>
+                        <strong class="price-amount">40</strong><span class="price-delimiter">/</span><span
+                          class="price-period">mo</span>
+                      </div>
+                    </header>
+                    <div class="price-features">
+                      <ul>
+                        <li>Enhanced Security</li>
+                        <li>No Time Tracking</li>
+                        <li>Enhanced Security</li>
+                      </ul>
+                    </div>
+                    <div class="price-footer">
+                      <a href="#request" class="btn btn-b-primary btn-block" data-toggle="modal">Select plan</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-price">
+              <div class="price-box">
+                <div class="price-body">
+                  <div class="price-inner">
+                    <header class="price-header">
+                      <h4 class="price-title">Premium</h4>
+                      <div class="price">
+                        <span class="price-currency">$</span>
+                        <strong class="price-amount">100</strong><span class="price-delimiter">/</span><span
+                          class="price-period">mo</span>
+                      </div>
+                    </header>
+                    <div class="price-features">
+                      <ul>
+                        <li>Enhanced Security</li>
+                        <li>No Time Tracking</li>
+                        <li>Enhanced Security</li>
+                      </ul>
+                    </div>
+                    <div class="price-footer">
+                      <a href="#request" class="btn btn-b-gray btn-block" data-toggle="modal">Select plan</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+  </div>
+</body>
+
+`,	
+});
+
+
+Vvveb.Blocks.add("BusinessServices/reviews-felix", {
+    name: "reviews-felix",
+dragHtml: '<img width="128" height="128" src="' + Vvveb.baseUrl + 'icons/product.png">',
+image: "",
+html: `
+
+
+
+
+
+
+
+
+<body>
+    <div class="prices-main" data-name="felix-reviews">
+        <style>
+           
+        </style>
+        <!-- Reviews -->
+
+        <section id="reviews" class="reviews text-center bgc-light section">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center col-md-8 col-md-offset-2">
+                        <h2 class="section-title">Buyers about product</h2>
+                        <p class="lead-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                </div>
+
+                <!-- CARROUSEL -->
+                <div class="section-body">
+                    <div class="row">
+                        <div class="review-carousel carousel">
+                            <div class="review">
+                                <div class="text-center">
+                                    <img alt="" class="img-circle"
+                                        src="http://paul-themes.com/html/felix-demo/img/reviews/1.jpg">
+                                    <h3>James Thornton</h3>
+                                    <p>
+                                        «Design is the method of putting form and content together; there is no single
+                                        definition. Design can be aesthetics</p>
+                                </div>
+                            </div>
+                            <div class="review">
+                                <div class="text-center">
+                                    <img alt="" class="img-circle"
+                                        src="http://paul-themes.com/html/felix-demo/img/reviews/2.jpg">
+                                    <h3>James Thornton</h3>
+                                    <p>
+                                        «Design is the method of putting form and content together; there is no single
+                                        definition. Design can be aesthetics</p>
+                                </div>
+                            </div>
+                            <div class="review">
+                                <div class="text-center">
+                                    <img alt="" class="img-circle"
+                                        src="http://paul-themes.com/html/felix-demo/img/reviews/1.jpg">
+                                    <h3>James Thornton</h3>
+                                    <p>
+                                        «Design is the method of putting form and content together; there is no single
+                                        definition. Design can be aesthetics</p>
+                                </div>
+                            </div>
+                            <div class="review">
+                                <div class="text-center">
+                                    <img alt="" class="img-circle"
+                                        src="http://paul-themes.com/html/felix-demo/img/reviews/1.jpg">
+                                    <h3>James Thornton</h3>
+                                    <p>
+                                        «Design is the method of putting form and content together; there is no single
+                                        definition. Design can be aesthetics</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.11.3.js"integrity="sha256-IGWuzKD7mwVnNY01LtXxq3L84Tm/RJtNCYBfXZw3Je0=" crossorigin="anonymous"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js></script>
+
+    <script>
+        
+        $(".review-carousel").owlCarousel({
+            itemsTablet: [768, 1],
+            itemsDesktopSmall: [979, 2],
+            itemsDesktop: [1199, 3],
+            items: 3,
+            responsiveRefreshRate: 0,
+            autoHeight: true
+        });
+        console.log("dentro");
+    </script>
+</body>
+`,	
 });
