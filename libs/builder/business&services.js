@@ -1,7 +1,7 @@
 //Business & services block templates
 
 Vvveb.BlocksGroup['BusinessServices'] =
-    ["BusinessServices/home-seppo", "BusinessServices/services-seppo","BusinessServices/about-seppo", "BusinessServices/news-seppo", "BusinessServices/portfolio-seppo", "BusinessServices/pricing-seppo","BusinessServices/index-felix", "BusinessServices/about-felix","BusinessServices/features-felix","BusinessServices/prices-felix", ];
+    ["BusinessServices/home-seppo", "BusinessServices/services-seppo","BusinessServices/about-seppo", "BusinessServices/news-seppo", "BusinessServices/portfolio-seppo", "BusinessServices/pricing-seppo","BusinessServices/index-felix", "BusinessServices/about-felix","BusinessServices/features-felix","BusinessServices/prices-felix","BusinessServices/reviews-felix", ];
 
 Vvveb.Blocks.add("BusinessServices/home-seppo", {
     name: "Home / welcome page",
