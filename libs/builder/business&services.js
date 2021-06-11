@@ -1,7 +1,7 @@
 //Business & services block templates
 
 Vvveb.BlocksGroup['BusinessServices'] =
-    ["BusinessServices/home-seppo", "BusinessServices/services-seppo","BusinessServices/about-seppo", "BusinessServices/news-seppo", "BusinessServices/portfolio-seppo", "BusinessServices/pricing-seppo","BusinessServices/index-felix", "BusinessServices/about-felix","BusinessServices/features-felix","BusinessServices/prices-felix","BusinessServices/reviews-felix", ];
+    ["BusinessServices/home-seppo", "BusinessServices/services-seppo","BusinessServices/about-seppo", "BusinessServices/news-seppo", "BusinessServices/portfolio-seppo", "BusinessServices/pricing-seppo","BusinessServices/team-seppo","BusinessServices/skills-seppo","BusinessServices/clients-seppo","BusinessServices/index-felix", "BusinessServices/about-felix","BusinessServices/features-felix","BusinessServices/prices-felix","BusinessServices/reviews-felix", ];
 
 Vvveb.Blocks.add("BusinessServices/home-seppo", {
     name: "Home / welcome page",
@@ -1268,7 +1268,1135 @@ body a.button {
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </body>`,
 });
+Vvveb.Blocks.add("BusinessServices/team-seppo", {
+  name: "team / Team page",
+  dragHtml: '<img width="128" height="128" src="' + Vvveb.baseUrl + 'icons/product.png">',
+  image: "",
+  html: `<body><div data-name="team-seppo" class="team-seppo site-content center-relative">
+  <style>
+    *{    
+    margin: 0;
+padding: 0;
+border: 0;
+outline: none;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+   h1, h2, h3, h4, h5, h6 {
+padding: 20px 0;
+} 
+a {
+margin: 0;
+padding: 0;
+font-size: 100%;
+outline: none;
+vertical-align: baseline;
+background: transparent;
+}    
+.center-relative {
+margin-left: auto;
+margin-right: auto;
+}    
+body {
+font-family: 'Rubik', sans-serif;
+font-size: 18px;
+line-height: 35px;
+font-weight: 400;
+color: #b3b3b3;
+background-color: #ffffff;
+overflow-x: hidden;
+}
+   body p, body pre {
+margin-bottom: 13px;
+} 
+#team {
+background-image: url(https://demo.cocobasic.com/seppo-html/images/on_black_left.png);
+background-color: #000000;
+background-position: left center;
+background-repeat: no-repeat;
+background-size: auto;
+}
 
+.section {
+position: relative;
+}
+ .page-title-holder {
+position: absolute;
+top: 0;
+left: 0;
+background-color: #47ea4e;
+width: 200px;
+display: inline-block;
+z-index: 98;
+height: 100px;
+}   
+   .section h3.entry-title {
+font-size: 16px;
+line-height: 149%;
+font-weight: 400;
+word-break: break-word;
+text-align: center;
+color: #fff;
+letter-spacing: 2px;
+margin-top: 18px;
+margin-bottom: 0 !important;      
+} 
+.page-title-holder:after {
+content: "";
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 100px 60px 0 0;
+border-color: #47ea4e transparent transparent transparent;
+position: absolute;
+top: 0;
+right: 0;
+transform: translateX(100%);
+}     
+ .content-1170 {
+width: 1170px;
+    max-width: 95%;
+}  
+    .block {
+display: block;
+}
+   .section-wrapper {
+position: relative;
+padding: 130px 0 30px 0;
+} 
+    .member {
+text-align: center;
+margin: 35px auto;
+max-width: 100%;
+}
+    .member img {
+  display: block;
+margin: 0 auto;
+width: 100% !important;
+vertical-align: middle;
+max-width: 700px;
+}
+
+.site-wrapper img {
+max-width: 100%;
+max-height: 100%;
+width: auto;
+height: auto;
+}
+    [data-jarallax-element] {
+transform: none !important;
+}
+   [data-jarallax-element] {
+z-index: 30 !important;
+} 
+ .member-info {
+display: block;
+margin: 0 auto !important;
+width: 80%;
+padding: 10%;
+       background-color: #fff; 
+        text-align: left;
+position: relative;
+z-index: 31;
+        vertical-align: middle;
+}   
+    .member-postition {
+margin: 0;
+font-size: 13px;
+letter-spacing: 2px;
+}
+   .member-name {
+font-size: 35px;
+font-weight: 700;
+color: #000;
+line-height: 150%;
+margin-bottom: 35px;
+margin-top: -5px;
+padding: 0;
+} 
+    .member-content {
+font-size: 16px;
+line-height: 170%;
+margin-bottom: 50px;
+}
+ .member-social-holder {
+right: 0 !important;
+left: 0 !important;
+width: 100%;
+text-align: center;
+padding: 25px 0;
+position: absolute;
+bottom: -35px;
+background: #47ea4e;
+}   
+.social {
+display: inline-block;
+font-size: 25px;
+margin-right: 20px;
+}     
+body .social a {
+       text-decoration: none; 
+color: #fff !important;
+transition: all .3s ease;
+}      
+</style>
+<div id="team" class="section">                   
+              <div class="page-title-holder">
+                  <h3 class="entry-title">
+                      TEAM             
+                  </h3>
+              </div>
+              <div class="section-wrapper block content-1170 center-relative">                                                
+                  <div class="content-wrapper">
+                      <div class="member member-left">
+                          <img src="https://demo.cocobasic.com/seppo-html/images/about_item_01.jpg" alt="" data-threshold="0 0" data-jarallax-element="60 0" style="position: relative; transform: translate3d(0px, 0px, 0px);">
+                          <div class="member-info">
+                              <p class="member-postition">CEO</p>
+                              <h5 class="member-name">Marty Stone</h5>
+                              <div class="member-content">
+                                  <p>
+                                      Code the energy hidden in matter citizens of distant epochs sun. Citizens of distant epochs encyclopaedia galant ctica the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia voluptas sit aspernatur aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam quis.
+                                  </p>
+                                  <div class="member-social-holder" data-jarallax-element="0 30" style="transform: translate3d(-5.94712px, 0px, 0px);">
+                                      <div class="social">
+                                          <a href="#" target="_blank">
+                                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="30" height="30" style="color: white; transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="iconify" data-icon="ion:logo-facebook" data-inline="false" data-width="30" data-height="30"><path d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16c24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31z" fill-rule="evenodd" fill="currentColor"></path></svg>
+                                          </a>
+                                      </div>
+                                      <div class="social">
+                                          <a href="#" target="_blank">
+                                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="30" height="30" style="color: white; transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="iconify" data-icon="ion:logo-twitter" data-inline="false" data-width="30" data-height="30"><path d="M496 109.5a201.8 201.8 0 0 1-56.55 15.3a97.51 97.51 0 0 0 43.33-53.6a197.74 197.74 0 0 1-62.56 23.5A99.14 99.14 0 0 0 348.31 64c-54.42 0-98.46 43.4-98.46 96.9a93.21 93.21 0 0 0 2.54 22.1a280.7 280.7 0 0 1-203-101.3A95.69 95.69 0 0 0 36 130.4c0 33.6 17.53 63.3 44 80.7A97.5 97.5 0 0 1 35.22 199v1.2c0 47 34 86.1 79 95a100.76 100.76 0 0 1-25.94 3.4a94.38 94.38 0 0 1-18.51-1.8c12.51 38.5 48.92 66.5 92.05 67.3A199.59 199.59 0 0 1 39.5 405.6a203 203 0 0 1-23.5-1.4A278.68 278.68 0 0 0 166.74 448c181.36 0 280.44-147.7 280.44-275.8c0-4.2-.11-8.4-.31-12.5A198.48 198.48 0 0 0 496 109.5z" fill="currentColor"></path></svg>
+                                          </a>
+                                      </div>
+                                      <div class="social">
+                                          <a href="#" target="_blank">
+                                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="30" height="30" style="color: white; transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="iconify" data-icon="ion:logo-instagram" data-inline="false" data-width="30" data-height="30"><path d="M349.33 69.33a93.62 93.62 0 0 1 93.34 93.34v186.66a93.62 93.62 0 0 1-93.34 93.34H162.67a93.62 93.62 0 0 1-93.34-93.34V162.67a93.62 93.62 0 0 1 93.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z" fill="currentColor"></path><path d="M377.33 162.67a28 28 0 1 1 28-28a27.94 27.94 0 0 1-28 28z" fill="currentColor"></path><path d="M256 181.33A74.67 74.67 0 1 1 181.33 256A74.75 74.75 0 0 1 256 181.33m0-37.33a112 112 0 1 0 112 112a112 112 0 0 0-112-112z" fill="currentColor"></path></svg>
+                                          </a>
+                                      </div>
+                                      <div class="social">
+                                          <a href="#" target="_blank">
+                                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="30" height="30" style="color: white; transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="iconify" data-icon="ion:logo-youtube" data-inline="false" data-width="30" data-height="30"><path d="M508.64 148.79c0-45-33.1-81.2-74-81.2C379.24 65 322.74 64 265 64h-18c-57.6 0-114.2 1-169.6 3.6C36.6 67.6 3.5 104 3.5 149C1 184.59-.06 220.19 0 255.79q-.15 53.4 3.4 106.9c0 45 33.1 81.5 73.9 81.5c58.2 2.7 117.9 3.9 178.6 3.8q91.2.3 178.6-3.8c40.9 0 74-36.5 74-81.5c2.4-35.7 3.5-71.3 3.4-107q.34-53.4-3.26-106.9zM207 353.89v-196.5l145 98.2z" fill="currentColor"></path></svg>
+                                          </a>
+                                      </div>
+                                      <div class="social">
+                                          <a href="#" target="_blank">
+                                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="30" height="30" style="color: white; transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="iconify" data-icon="ion:logo-behance" data-inline="false" data-width="30" data-height="30"><path d="M344.1 233.6c-28.9 0-32.9 28.8-32.9 28.8h61.4s.4-28.8-28.5-28.8z" fill="currentColor"></path><path d="M204.8 262.4h-54.4v50h51.7c7.8-.2 22.4-2.4 22.4-24.3c0-26-19.7-25.7-19.7-25.7z" fill="currentColor"></path><path d="M256 32C132.3 32 32 132.3 32 256s100.3 224 224 224s224-100.3 224-224S379.7 32 256 32zm47.2 137.6h77.1v23h-77.1v-23zm-39 120.8c0 57-59.4 55.2-59.4 55.2h-97.2v-187h97.2c29.6 0 52.9 16.3 52.9 49.8S229.2 244 229.2 244c37.6 0 35 46.4 35 46.4zm144.2-3.1h-96.9c0 34.7 32.9 32.5 32.9 32.5c31.1 0 30-20.1 30-20.1h32.9c0 53.4-64 49.7-64 49.7c-76.7 0-71.8-71.5-71.8-71.5s-.1-71.8 71.8-71.8c75.7.1 65.1 81.2 65.1 81.2z" fill="currentColor"></path><path d="M218 211.3c0-19.4-13.2-19.4-13.2-19.4h-54.4v41.7h51c8.8 0 16.6-2.9 16.6-22.3z" fill="currentColor"></path></svg>
+                                          </a>
+                                      </div>
+                                  <div id="jarallax-container-3" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="position: fixed;"></div></div></div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <br>
+
+                      <div class="member member-right small-screen">
+                          <img src="https://demo.cocobasic.com/seppo-html/images/about_item_02.jpg" alt="" data-threshold="0 0" data-jarallax-element="60 0" style="position: relative; transform: translate3d(0px, -62.0228px, 0px);"><div class="member-info">
+                              <p class="member-postition">DESIGNER</p>
+                              <h5 class="member-name">John Williams</h5>
+                              <div class="member-content">
+                                  <p>
+                                      Code the energy hidden in matter citizens of distant epochs sun. Citizens of distant epochs encyclopaedia galant ctica the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia voluptas sit aspernatur aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam quis.
+                                  </p>
+                                  <div class="member-social-holder" data-jarallax-element="0 -30" style="transform: translate3d(87.1286px, 0px, 0px);">
+                                      <div class="social">
+                                          <a href="#" target="_blank">
+                                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="30" height="30" style="color: white; transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="iconify" data-icon="ion:logo-facebook" data-inline="false" data-width="30" data-height="30"><path d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16c24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31z" fill-rule="evenodd" fill="currentColor"></path></svg>
+                                          </a>
+                                      </div>
+                                      <div class="social">
+                                          <a href="#" target="_blank">
+                                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="30" height="30" style="color: white; transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="iconify" data-icon="ion:logo-twitter" data-inline="false" data-width="30" data-height="30"><path d="M496 109.5a201.8 201.8 0 0 1-56.55 15.3a97.51 97.51 0 0 0 43.33-53.6a197.74 197.74 0 0 1-62.56 23.5A99.14 99.14 0 0 0 348.31 64c-54.42 0-98.46 43.4-98.46 96.9a93.21 93.21 0 0 0 2.54 22.1a280.7 280.7 0 0 1-203-101.3A95.69 95.69 0 0 0 36 130.4c0 33.6 17.53 63.3 44 80.7A97.5 97.5 0 0 1 35.22 199v1.2c0 47 34 86.1 79 95a100.76 100.76 0 0 1-25.94 3.4a94.38 94.38 0 0 1-18.51-1.8c12.51 38.5 48.92 66.5 92.05 67.3A199.59 199.59 0 0 1 39.5 405.6a203 203 0 0 1-23.5-1.4A278.68 278.68 0 0 0 166.74 448c181.36 0 280.44-147.7 280.44-275.8c0-4.2-.11-8.4-.31-12.5A198.48 198.48 0 0 0 496 109.5z" fill="currentColor"></path></svg>
+                                          </a>
+                                      </div>
+                                      <div class="social">
+                                          <a href="#" target="_blank">
+                                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="30" height="30" style="color: white; transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="iconify" data-icon="ion:logo-instagram" data-inline="false" data-width="30" data-height="30"><path d="M349.33 69.33a93.62 93.62 0 0 1 93.34 93.34v186.66a93.62 93.62 0 0 1-93.34 93.34H162.67a93.62 93.62 0 0 1-93.34-93.34V162.67a93.62 93.62 0 0 1 93.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z" fill="currentColor"></path><path d="M377.33 162.67a28 28 0 1 1 28-28a27.94 27.94 0 0 1-28 28z" fill="currentColor"></path><path d="M256 181.33A74.67 74.67 0 1 1 181.33 256A74.75 74.75 0 0 1 256 181.33m0-37.33a112 112 0 1 0 112 112a112 112 0 0 0-112-112z" fill="currentColor"></path></svg>
+                                          </a>
+                                      </div>
+                                      <div class="social">
+                                          <a href="#" target="_blank">
+                                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="30" height="30" style="color: white; transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="iconify" data-icon="ion:logo-youtube" data-inline="false" data-width="30" data-height="30"><path d="M508.64 148.79c0-45-33.1-81.2-74-81.2C379.24 65 322.74 64 265 64h-18c-57.6 0-114.2 1-169.6 3.6C36.6 67.6 3.5 104 3.5 149C1 184.59-.06 220.19 0 255.79q-.15 53.4 3.4 106.9c0 45 33.1 81.5 73.9 81.5c58.2 2.7 117.9 3.9 178.6 3.8q91.2.3 178.6-3.8c40.9 0 74-36.5 74-81.5c2.4-35.7 3.5-71.3 3.4-107q.34-53.4-3.26-106.9zM207 353.89v-196.5l145 98.2z" fill="currentColor"></path></svg>
+                                          </a>
+                                      </div>
+                                      <div class="social">
+                                          <a href="#" target="_blank">
+                                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="30" height="30" style="color: white; transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="iconify" data-icon="ion:logo-behance" data-inline="false" data-width="30" data-height="30"><path d="M344.1 233.6c-28.9 0-32.9 28.8-32.9 28.8h61.4s.4-28.8-28.5-28.8z" fill="currentColor"></path><path d="M204.8 262.4h-54.4v50h51.7c7.8-.2 22.4-2.4 22.4-24.3c0-26-19.7-25.7-19.7-25.7z" fill="currentColor"></path><path d="M256 32C132.3 32 32 132.3 32 256s100.3 224 224 224s224-100.3 224-224S379.7 32 256 32zm47.2 137.6h77.1v23h-77.1v-23zm-39 120.8c0 57-59.4 55.2-59.4 55.2h-97.2v-187h97.2c29.6 0 52.9 16.3 52.9 49.8S229.2 244 229.2 244c37.6 0 35 46.4 35 46.4zm144.2-3.1h-96.9c0 34.7 32.9 32.5 32.9 32.5c31.1 0 30-20.1 30-20.1h32.9c0 53.4-64 49.7-64 49.7c-76.7 0-71.8-71.5-71.8-71.5s-.1-71.8 71.8-71.8c75.7.1 65.1 81.2 65.1 81.2z" fill="currentColor"></path><path d="M218 211.3c0-19.4-13.2-19.4-13.2-19.4h-54.4v41.7h51c8.8 0 16.6-2.9 16.6-22.3z" fill="currentColor"></path></svg>
+                                          </a>
+                                      </div>
+                                  <div id="jarallax-container-4" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="position: fixed;"></div></div></div>
+                              </div>
+                          </div>
+                          
+                      </div>
+
+                      <br>
+
+                      <div class="member member-left">
+                          <img src="https://demo.cocobasic.com/seppo-html/images/about_item_03.jpg" alt="" data-threshold="0 0" data-jarallax-element="60 0" style="position: relative; transform: translate3d(0px, -224.386px, 0px);">
+                          <div class="member-info">
+                              <p class="member-postition">DEVELOPER</p>
+                              <h5 class="member-name">Vanessa Doe</h5>
+                              <div class="member-content">
+                                  <p>
+                                      Code the energy hidden in matter citizens of distant epochs sun. Citizens of distant epochs encyclopaedia galant ctica the ash of stellar alchemy Vangelis white dwarf adipisci velit. Nemo enim ipsam volupta tem quia voluptas sit aspernatur aut odit aut fugit radio telescope quis nostrum exercitatio nem ullam corporis suscipit laboriosam quis.
+                                  </p>
+                                  <div class="member-social-holder" data-jarallax-element="0 30" style="transform: translate3d(-168.31px, 0px, 0px);">
+                                      <div class="social">
+                                          <a href="#" target="_blank">
+                                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="30" height="30" style="color: white; transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="iconify" data-icon="ion:logo-facebook" data-inline="false" data-width="30" data-height="30"><path d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16c24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31z" fill-rule="evenodd" fill="currentColor"></path></svg>
+                                          </a>
+                                      </div>
+                                      <div class="social">
+                                          <a href="#" target="_blank">
+                                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="30" height="30" style="color: white; transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="iconify" data-icon="ion:logo-twitter" data-inline="false" data-width="30" data-height="30"><path d="M496 109.5a201.8 201.8 0 0 1-56.55 15.3a97.51 97.51 0 0 0 43.33-53.6a197.74 197.74 0 0 1-62.56 23.5A99.14 99.14 0 0 0 348.31 64c-54.42 0-98.46 43.4-98.46 96.9a93.21 93.21 0 0 0 2.54 22.1a280.7 280.7 0 0 1-203-101.3A95.69 95.69 0 0 0 36 130.4c0 33.6 17.53 63.3 44 80.7A97.5 97.5 0 0 1 35.22 199v1.2c0 47 34 86.1 79 95a100.76 100.76 0 0 1-25.94 3.4a94.38 94.38 0 0 1-18.51-1.8c12.51 38.5 48.92 66.5 92.05 67.3A199.59 199.59 0 0 1 39.5 405.6a203 203 0 0 1-23.5-1.4A278.68 278.68 0 0 0 166.74 448c181.36 0 280.44-147.7 280.44-275.8c0-4.2-.11-8.4-.31-12.5A198.48 198.48 0 0 0 496 109.5z" fill="currentColor"></path></svg>
+                                          </a>
+                                      </div>
+                                      <div class="social">
+                                          <a href="#" target="_blank">
+                                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="30" height="30" style="color: white; transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="iconify" data-icon="ion:logo-instagram" data-inline="false" data-width="30" data-height="30"><path d="M349.33 69.33a93.62 93.62 0 0 1 93.34 93.34v186.66a93.62 93.62 0 0 1-93.34 93.34H162.67a93.62 93.62 0 0 1-93.34-93.34V162.67a93.62 93.62 0 0 1 93.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z" fill="currentColor"></path><path d="M377.33 162.67a28 28 0 1 1 28-28a27.94 27.94 0 0 1-28 28z" fill="currentColor"></path><path d="M256 181.33A74.67 74.67 0 1 1 181.33 256A74.75 74.75 0 0 1 256 181.33m0-37.33a112 112 0 1 0 112 112a112 112 0 0 0-112-112z" fill="currentColor"></path></svg>
+                                          </a>
+                                      </div>
+                                      <div class="social">
+                                          <a href="#" target="_blank">
+                                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="30" height="30" style="color: white; transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="iconify" data-icon="ion:logo-youtube" data-inline="false" data-width="30" data-height="30"><path d="M508.64 148.79c0-45-33.1-81.2-74-81.2C379.24 65 322.74 64 265 64h-18c-57.6 0-114.2 1-169.6 3.6C36.6 67.6 3.5 104 3.5 149C1 184.59-.06 220.19 0 255.79q-.15 53.4 3.4 106.9c0 45 33.1 81.5 73.9 81.5c58.2 2.7 117.9 3.9 178.6 3.8q91.2.3 178.6-3.8c40.9 0 74-36.5 74-81.5c2.4-35.7 3.5-71.3 3.4-107q.34-53.4-3.26-106.9zM207 353.89v-196.5l145 98.2z" fill="currentColor"></path></svg>
+                                          </a>
+                                      </div>
+                                      <div class="social">
+                                          <a href="#" target="_blank">
+                                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="30" height="30" style="color: white; transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512" class="iconify" data-icon="ion:logo-behance" data-inline="false" data-width="30" data-height="30"><path d="M344.1 233.6c-28.9 0-32.9 28.8-32.9 28.8h61.4s.4-28.8-28.5-28.8z" fill="currentColor"></path><path d="M204.8 262.4h-54.4v50h51.7c7.8-.2 22.4-2.4 22.4-24.3c0-26-19.7-25.7-19.7-25.7z" fill="currentColor"></path><path d="M256 32C132.3 32 32 132.3 32 256s100.3 224 224 224s224-100.3 224-224S379.7 32 256 32zm47.2 137.6h77.1v23h-77.1v-23zm-39 120.8c0 57-59.4 55.2-59.4 55.2h-97.2v-187h97.2c29.6 0 52.9 16.3 52.9 49.8S229.2 244 229.2 244c37.6 0 35 46.4 35 46.4zm144.2-3.1h-96.9c0 34.7 32.9 32.5 32.9 32.5c31.1 0 30-20.1 30-20.1h32.9c0 53.4-64 49.7-64 49.7c-76.7 0-71.8-71.5-71.8-71.5s-.1-71.8 71.8-71.8c75.7.1 65.1 81.2 65.1 81.2z" fill="currentColor"></path><path d="M218 211.3c0-19.4-13.2-19.4-13.2-19.4h-54.4v41.7h51c8.8 0 16.6-2.9 16.6-22.3z" fill="currentColor"></path></svg>
+                                          </a>
+                                      </div>
+                                  <div id="jarallax-container-7" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="position: fixed;"></div></div></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>                        
+              </div>
+          </div>
+</div>
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</body>`,
+});
+
+Vvveb.Blocks.add("BusinessServices/skills-seppo", {
+  name: "Skills / skills page",
+  dragHtml: '<img width="128" height="128" src="' + Vvveb.baseUrl + 'icons/product.png">',
+  image: "",
+  html: `<body><div data-name="skills-seppo" class="skills-seppo site-content center-relative">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: none;
+      font-size: 100%;
+      vertical-align: baseline;
+      background: transparent;
+      }
+    h1, h2, h3, h4, h5, h6 {
+      padding: 20px 0;
+  }
+    a {
+      margin: 0;
+      padding: 0;
+      font-size: 100%;
+      outline: none;
+      vertical-align: baseline;
+      background: transparent;
+  }
+    body {
+      font-family: 'Rubik', sans-serif;
+      font-size: 18px;
+      line-height: 35px;
+      font-weight: 400;
+      color: #b3b3b3;
+      background-color: #ffffff;
+      overflow-x: hidden;
+      }
+    body p, body pre {
+      margin-bottom: 13px;
+  }
+    .section {
+      position: relative;
+  }
+    .center-relative {
+      margin-left: auto;
+      margin-right: auto;
+  }
+    .page-title-holder {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #47ea4e;
+      width: 200px;
+      display: inline-block;
+      z-index: 98;
+      height: 100px;
+  }
+    .section h3.entry-title {
+      font-size: 16px;
+      line-height: 149%;
+      font-weight: 400;
+      word-break: break-word;
+      text-align: center;
+      color: #fff;
+      letter-spacing: 2px;
+      margin-top: 18px;
+      margin-bottom: 0 !important;
+  }
+    .page-title-holder:after {
+      content: "";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 100px 60px 0 0;
+      border-color: #47ea4e transparent transparent transparent;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translateX(100%);
+  }
+    .content-1170 {
+      width: 1170px;
+        max-width: 95%;
+  }
+    .section-wrapper {
+      position: relative;
+      padding: 130px 0 30px 0;
+  }
+    .block {
+      display: block;
+  }
+    .one_half, .one_third, .one_fourth, .two_third, .three_fourth {
+      width: 100% !important;
+      float: none;
+      margin-right: auto !important;
+      margin-left: auto !important;
+      text-align: center;
+        position: relative;
+      margin-bottom: 30px;
+  }
+    .title-description-up {
+      font-size: 16px;
+      margin-bottom: 0;
+      letter-spacing: 2px;
+  }
+    .medium-text {
+      font-size: 40px;
+      line-height: 105%;
+      padding-top: 10px;
+        color: #000;
+        font-weight: 700;
+      padding-bottom: 35px;
+  }
+    .button-holder {
+      text-align: center !important;
+  }
+    body a.button {
+      display: inline-block;
+      color: #fff;
+      background-color: #47ea4e;
+      text-align: left;
+      padding: 10px 40px;
+      cursor: pointer;
+      vertical-align: middle;
+      text-decoration: none;
+      transition: all .2s linear;
+      margin-bottom: 17px;
+      border: 2px solid #47ea4e;
+      border-radius: 50px;
+      font-size: 14px;
+      letter-spacing: 2px;
+      box-sizing: border-box;
+  }
+    .last {
+      clear: right;
+  }
+    .skills-holder {
+      position: relative;
+      margin: 40px 0;
+  }
+    .skill-holder {
+      margin-bottom: 30px;
+  }
+    .skill-percent {
+      line-height: 100%;
+      font-weight: 100;
+      display: block;
+      width: 100%;
+      font-size: 40px;
+      vertical-align: text-top;
+  }
+    .skill-text {
+      display: block;
+      width: 100%;
+        margin-right: 0;
+      float: right;
+      vertical-align: text-top;
+  }
+    .skill-text span {
+      margin-bottom: 10px;
+      display: block;
+        font-size: 22px;
+      line-height: 35px;
+  }
+    .skill {
+      width: 100%;
+      height: 3px;
+      background-color: rgba(202, 202, 202, 0.3);
+      margin-bottom: 30px;
+  }
+    .skill-fill {
+      width: 75%;
+      height: 10px;
+      background-color: #000;
+  }
+    .skill-holder:after {
+      clear: both;
+      display: block;
+      content: "";
+  }
+    .clear {
+      clear: both;
+  }
+  </style>
+    <div id="skills" class="section">                   
+                      <div class="page-title-holder">
+                          <h3 class="entry-title">
+                              SKILLS             
+                          </h3>
+                      </div>
+                      <div class="section-wrapper block content-1170 center-relative">                                                
+                          <div class="content-wrapper">
+  
+                              <div class="one_half ">
+                                  <p class="title-description-up">
+                                      OUR NUMBERS
+                                  </p>
+                                  <h2 class="entry-title medium-text">
+                                      Check our <br>
+                                      Skills
+                                  </h2>
+                                  <p>
+                                      Code the energy hidden in matter citizens of distant epochs from which we spring drake equation perga inconspicuous motespatch clean designed code and energy matter.
+                                  </p>
+                                  <br>
+                                  <div class="button-holder text-left">
+                                      <a href="#" class="button">LEARN MORE</a>
+                                  </div>
+                              </div>
+  
+                              <div class="one_half last">
+                                  <div class="skills-holder">
+  
+                                      <div class="skill-holder">
+                                          <div class="skill-percent">75%</div>
+                                          <div class="skill-text">
+                                              <span>Creativity</span>
+                                              <div class="skill">
+                                                  <div class="skill-fill" data-fill="75%" style="width: 75%;"></div>                                                    
+                                              </div>                                                
+                                          </div>                                            
+                                      </div>
+  
+                                      <div class="skill-holder">
+                                          <div class="skill-percent">45%</div>
+                                          <div class="skill-text">
+                                              <span>Cooking</span>
+                                              <div class="skill">
+                                                  <div class="skill-fill" data-fill="45%" style="width: 45%;"></div>                                                    
+                                              </div>                                                
+                                          </div>                                            
+                                      </div>
+  
+                                      <div class="skill-holder">
+                                          <div class="skill-percent">90%</div>
+                                          <div class="skill-text">
+                                              <span>PhP</span>
+                                              <div class="skill">
+                                                  <div class="skill-fill" data-fill="90%" style="width: 90%;"></div>                                                    
+                                              </div>                                                
+                                          </div>                                            
+                                      </div>
+  
+                                      <div class="skill-holder">
+                                          <div class="skill-percent">65%</div>
+                                          <div class="skill-text">
+                                              <span>Marketing</span>
+                                              <div class="skill">
+                                                  <div class="skill-fill" data-fill="65%" style="width: 65%;"></div>                                                    
+                                              </div>                                                
+                                          </div>                                            
+                                      </div>
+  
+                                      <div class="skill-holder">
+                                          <div class="skill-percent">85%</div>
+                                          <div class="skill-text">
+                                              <span>Design</span>
+                                              <div class="skill">
+                                                  <div class="skill-fill" data-fill="85%" style="width: 85%;"></div>                                                    
+                                              </div>                                                
+                                          </div>                                            
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="clear"></div>
+                          </div>                        
+                      </div>
+                  </div>
+  </div></body>`,
+});
+
+
+Vvveb.Blocks.add("BusinessServices/milestones-seppo", {
+  name: "milestones / milestones page",
+  dragHtml: '<img width="128" height="128" src="' + Vvveb.baseUrl + 'icons/product.png">',
+  image: "",
+  html: `
+<body>
+  <div data-name="milestones-seppo" class="milestones-seppo site-content center-relative">
+      <style>
+          * {
+              margin: 0;
+              padding: 0;
+              border: 0;
+              outline: none;
+              font-size: 100%;
+              vertical-align: baseline;
+              background: transparent;
+          }
+
+          h5 {
+              font-size: 28px;
+          }
+
+          h1, h2, h3, h4, h5, h6 {
+              padding: 20px 0;
+          }
+
+          body {
+              font-family: 'Rubik', sans-serif;
+              font-size: 18px;
+              line-height: 35px;
+              font-weight: 400;
+              color: #b3b3b3;
+              background-color: #ffffff;
+              overflow-x: hidden;
+          }
+
+          body p,
+          body pre {
+              margin-bottom: 13px;
+          }
+
+          .section {
+              position: relative;
+          }
+
+          .center-relative {
+              margin-left: auto;
+              margin-right: auto;
+          }
+
+          .page-title-holder {
+              position: absolute;
+              top: 0;
+              left: 0;
+              background-color: #47ea4e;
+              width: 200px;
+              display: inline-block;
+              z-index: 98;
+              height: 100px;
+          }
+
+          .section h3.entry-title {
+              font-size: 16px;
+              line-height: 149%;
+              font-weight: 400;
+              word-break: break-word;
+              text-align: center;
+              color: #fff;
+              letter-spacing: 2px;
+              margin-top: 18px;
+              margin-bottom: 0 !important;
+          }
+
+          .page-title-holder:after {
+              content: "";
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-width: 100px 60px 0 0;
+              border-color: #47ea4e transparent transparent transparent;
+              position: absolute;
+              top: 0;
+              right: 0;
+              transform: translateX(100%);
+          }
+
+          .content-1170 {
+              width: 1170px;
+              max-width: 95%;
+          }
+
+          .section-wrapper {
+              position: relative;
+              padding: 130px 0 30px 0;
+          }
+
+          #millstones {
+              background-image: url(https://demo.cocobasic.com/seppo-html/images/on_black_left.png);
+              background-color: #000000;
+              background-position: left bottom;
+              background-repeat: no-repeat;
+              background-size: auto;
+          }
+
+          ul.milestones-holder {
+              padding: 0;
+              list-style: none;
+              margin: 0;
+          }
+
+          li.milestone {
+              width: 100%;
+              margin-bottom: 60px;
+              display: block;
+              max-width: 350px;
+              margin-left: auto !important;
+              margin-right: auto !important;
+              text-align: center;
+              margin: 30px 9% 30px 0
+          }
+
+          li.milestone>div {
+              width: 100% !important;
+              display: block;
+              margin-left: auto !important;
+              margin-right: auto !important;
+              text-align: center !important;
+          }
+
+          .milestone-info-left {
+              margin: 0 auto;
+              display: block;
+              width: 100%;
+              text-align: center;
+          }
+
+          p.milestone-num {
+              font-size: 65px;
+              line-height: 100%;
+              font-weight: 700;
+              position: relative;
+              margin-bottom: 0;
+              color: #000000;
+              text-shadow: -1px 0 #b3b3b3, 0 1px #b3b3b3, 1px 0 #b3b3b3, 0 -1px #b3b3b3;
+          }
+
+          li.milestone h5 {
+              color: #fff;
+              padding-top: 0;
+              line-height: 115%;
+              max-width: 100%;
+              margin-top: 20px;
+          }
+      </style>
+      <div id="millstones" class="section">
+          <div class="page-title-holder">
+              <h3 class="entry-title">
+                  MILESTONES
+              </h3>
+          </div>
+          <div class="section-wrapper block content-1170 center-relative">
+              <div class="content-wrapper">
+                  <ul class="milestones-holder">
+
+                      <li class="milestone">
+                          <div class="milestone-info-left">
+                              <p class="milestone-num">135</p>
+                          </div>
+                          <div class="milestone-info-right">
+                              <h5>Terabytes of files uploaded</h5>
+                              <p class="milestone-text">
+                                  Nulla ac laoreet est, a mollis nibh. Aenean eget auctor velit quis pharetra.
+                              </p>
+                          </div>
+                      </li>
+
+                      <li class="milestone">
+                          <div class="milestone-info-left">
+                              <p class="milestone-num">67K</p>
+                          </div>
+                          <div class="milestone-info-right">
+                              <h5>Lines of CSS code wrote</h5>
+                              <p class="milestone-text">
+                                  Nulla ac laoreet est, a mollis nibh. Aenean eget auctor velit quis pharetra.
+                              </p>
+                          </div>
+                      </li>
+
+                      <li class="milestone">
+                          <div class="milestone-info-left">
+                              <p class="milestone-num">74</p>
+                          </div>
+                          <div class="milestone-info-right">
+                              <h5>Cups of coffee drinked per week</h5>
+                              <p class="milestone-text">
+                                  Nulla ac laoreet est, a mollis nibh. Aenean eget auctor velit quis pharetra.
+                              </p>
+                          </div>
+                      </li>
+
+                      <li class="milestone">
+                          <div class="milestone-info-left">
+                              <p class="milestone-num">389</p>
+                          </div>
+                          <div class="milestone-info-right">
+                              <h5>Happy clients served this year</h5>
+                              <p class="milestone-text">
+                                  Nulla ac laoreet est, a mollis nibh. Aenean eget auctor velit quis pharetra.
+                              </p>
+                          </div>
+                      </li>
+
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</body>`,
+});
+
+
+Vvveb.Blocks.add("BusinessServices/clients-seppo", {
+  name: "clients / clients page",
+  dragHtml: '<img width="128" height="128" src="' + Vvveb.baseUrl + 'icons/product.png">',
+  image: "",
+  html: `
+<body> <div data-name="clients-seppo" class="clients-seppo" id="content">
+<!--<link rel="stylesheet" type="text/css" href="https://demo.cocobasic.com/seppo-html/style.css">-->
+
+<style>
+  *{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+  
+  body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 400;
+  color: #b3b3b3;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+  #clients {
+  background-image: url(https://demo.cocobasic.com/seppo-html/images/quote_image_01.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  .center-relative {
+  margin-left: auto;
+  margin-right: auto;
+}
+.section {
+  position: relative;
+}
+  .content-1170 {
+  width: 1170px;
+  max-width: 95%;
+}
+  .no-page-title .section-wrapper {
+  padding: 65px 0 35px 0;
+  position: relative;
+}
+  [data-jarallax-element] {
+  transform: none !important;
+}
+
+.one {
+  display: block;
+  clear: both;
+  margin-bottom: 30px;
+}
+[data-jarallax-element] {
+  z-index: 30 !important;
+}
+  .text-slider-wrapper {
+  font-size: 24px;
+  line-height: 35px;
+  background-color: #000;
+  padding: 10%;
+  width: 80%;
+}
+  .relative {
+  position: relative;
+}
+  .text-slider-header-quotes {
+  margin-bottom: 60px;
+  background-image: url(https://demo.cocobasic.com/seppo-html/images/quotes_image.png);
+  background-repeat: no-repeat;
+  width: 87px;
+  height: 74px;
+  background-size: 87px 74px;
+}
+  .owl-carousel .owl-stage-outer {
+  height: auto !important;
+}
+ .owl-carousel,.owl-carousel .owl-item{-webkit-tap-highlight-color:transparent;position:relative}.owl-carousel{display:none;width:100%;z-index:1}.owl-carousel .owl-stage{position:relative;-ms-touch-action:pan-Y;-moz-backface-visibility:hidden}.owl-carousel .owl-stage:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.owl-carousel .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0,0,0)}.owl-carousel .owl-item,.owl-carousel .owl-wrapper{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)}.owl-carousel .owl-item{min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-touch-callout:none}.owl-carousel .owl-item img{display:block;width:100%}.owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{display:none}.no-js .owl-carousel,.owl-carousel.owl-loaded{display:block;}.owl-carousel .owl-dot,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-nav .owl-prev{cursor:pointer;cursor:hand;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel.owl-loading{opacity:0;display:block}.owl-carousel.owl-hidden{/* opacity:0 */}.owl-carousel.owl-refresh .owl-item{visibility:hidden}.owl-carousel.owl-drag .owl-item{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel.owl-grab{cursor:move;cursor:grab}.owl-carousel.owl-rtl{direction:rtl}.owl-carousel.owl-rtl .owl-item{float:right}.owl-carousel .animated{animation-duration:1s;animation-fill-mode:both}.owl-carousel .owl-animated-in{z-index:0}.owl-carousel .owl-animated-out{z-index:1}.owl-carousel .fadeOut{animation-name:fadeOut}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}.owl-height{transition:height .5s ease-in-out}.owl-carousel .owl-item .owl-lazy{opacity:0;transition:opacity .4s ease}.owl-carousel .owl-item img.owl-lazy{transform-style:preserve-3d}.owl-carousel .owl-video-wrapper{position:relative;height:100%;background:#000}.owl-carousel .owl-video-play-icon{position:absolute;height:80px;width:80px;left:50%;top:50%;margin-left:-40px;margin-top:-40px;background:url(owl.video.play.png) no-repeat;cursor:pointer;z-index:1;-webkit-backface-visibility:hidden;transition:transform .1s ease}.owl-carousel .owl-video-play-icon:hover{-ms-transform:scale(1.3,1.3);transform:scale(1.3,1.3)}.owl-carousel .owl-video-playing .owl-video-play-icon,.owl-carousel .owl-video-playing .owl-video-tn{display:none}.owl-carousel .owl-video-tn{opacity:0;height:100%;background-position:center center;background-repeat:no-repeat;background-size:contain;transition:opacity .4s ease}.owl-carousel .owl-video-frame{position:relative;z-index:1;height:100%;width:100%}
+  
+  .text-slider-wrapper .text-slide {
+  text-align: left;
+  font-size: 20px;
+  line-height: 170%;
+  overflow: hidden;
+}
+  .text-slide-content {
+  margin-bottom: 60px;
+}
+  .text-slider-wrapper img.text-slide-img {
+  width: 70px !important;
+  height: 70px;
+  border-radius: 90%;
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 25px;
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+}
+  .text-slider-wrapper .text-slide-name {
+  font-size: 18px;
+  line-height: 100%;
+  margin: 0 12px 0 0;
+      display: block;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+  .text-slider-wrapper .text-slide-position {
+  display: block;
+  font-size: 14px;
+  line-height: 125%;
+      letter-spacing: 4px;
+  color: #fff;
+      vertical-align: middle;
+  margin: 0;
+}
+  .text-slider-wrapper .text-slide:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  .owl-carousel .owl-stage:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+  .text-slider-wrapper .owl-nav {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+  .text-slider-wrapper .owl-theme .owl-prev {
+  background-image: url(https://demo.cocobasic.com/seppo-html/images/nav_left.png) !important;
+  background-color: transparent !important;
+  font-size: 0;
+  width: 30px;
+  padding: 0;
+  height: 30px;
+  background-repeat: no-repeat !important;
+  background-size: 30px !important;
+  transition: .3s;
+  opacity: 0.7;
+  margin-right: 10px;
+}
+  .text-slider-wrapper .owl-theme .owl-next {
+  background-image: url(https://demo.cocobasic.com/seppo-html/images/nav_right.png) !important;
+  background-color: transparent !important;
+  font-size: 0;
+  width: 30px;
+  padding: 0;
+  height: 30px;
+  background-repeat: no-repeat !important;
+  background-size: 30px !important;
+  transition: .3s;
+  opacity: 0.7;
+}
+  .owl-theme .owl-dots {
+  padding-top: 25px;
+  line-height: 0;
+}
+  .clear {
+  clear: both;
+}
+</style>
+    <div id="clients" class="section no-page-title">
+          <div class="section-wrapper block content-1170 center-relative">
+              <div class="content-wrapper">
+                  <div class="one" data-threshold="0 0" data-jarallax-element="120 0">
+                      <script>
+                          var textSlider_speed = "2000";
+                          var textSlider_auto = "true";
+                          var textSlider_hover = "true";
+                      </script>
+                      <div class="text-slider-wrapper relative">
+                          <div class="text-slider-header-quotes"></div>
+                          <div id="textSlider" class="text-slider slider owl-carousel owl-theme owl-loaded owl-drag">
+                              
+                              
+                              
+                          <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-976px, 0px, 0px); transition: all 0s ease 0s; width: 3660px;"><div class="owl-item animated owl-animated-out fadeOut cloned" style="width: 244px; left: 237px;"><div class="text-slide">
+                                  <p class="text-slide-content">
+                                      Vivamus quis ante varius, pretium lectus ut, tempor eros maecenas vitae purus
+                                      lobortis, pulvinar lorem eu, porta elit suspendisse blandit porta magna, nec
+                                      scelerisque urna viverra lorem gravida.
+                                  </p>
+                                  <img class="text-slide-img" src="https://demo.cocobasic.com/seppo-html/images/quote_image_04.jpg" alt="">
+                                  <p class="text-slide-name">John Smith</p>
+                                  <p class="text-slide-position">GURU</p>
+                              </div></div><div class="owl-item animated owl-animated-in fadeIn cloned" style="width: 244px;"><div class="text-slide">
+                                  <p class="text-slide-content">
+                                      Suspendisse enim erat, vehicula sit amet odio eu, congue gravida magna mauris a
+                                      ex aliquam, ornare tortor sit amet, placerat ante aenean sit amet sem et metus
+                                      elementum pellentesque.
+                                  </p>
+                                  <img class="text-slide-img" src="https://demo.cocobasic.com/seppo-html/images/quote_image_02.jpg" alt="">
+                                  <p class="text-slide-name">Peter Hall</p>
+                                  <p class="text-slide-position">CEO</p>
+                              </div></div><div class="owl-item cloned" style="width: 244px;"><div class="text-slide">
+                                  <p class="text-slide-content">
+                                      Curabitur cursus mattis ligula a maximus pellentesque in purus malesuada,
+                                      pharetra eros id, malesuada diam vivamus eu gravida lacus nulla at consectetur
+                                      quam vestibulum ac arcu sed.
+                                  </p>
+                                  <img class="text-slide-img" src="https://demo.cocobasic.com/seppo-html/images/quote_image_03.jpg" alt="">
+                                  <p class="text-slide-name">Jane Williams</p>
+                                  <p class="text-slide-position">DESIGNER</p>
+                              </div></div><div class="owl-item cloned" style="width: 244px;"><div class="text-slide">
+                                  <p class="text-slide-content">
+                                      Vivamus quis ante varius, pretium lectus ut, tempor eros maecenas vitae purus
+                                      lobortis, pulvinar lorem eu, porta elit suspendisse blandit porta magna, nec
+                                      scelerisque urna viverra lorem gravida.
+                                  </p>
+                                  <img class="text-slide-img" src="https://demo.cocobasic.com/seppo-html/images/quote_image_04.jpg" alt="">
+                                  <p class="text-slide-name">John Smith</p>
+                                  <p class="text-slide-position">GURU</p>
+                              </div></div><div class="owl-item active" style="width: 244px;"><div class="text-slide">
+                                  <p class="text-slide-content">
+                                      Curabitur cursus mattis ligula a maximus pellentesque in purus malesuada,
+                                      pharetra eros id, malesuada diam vivamus eu gravida lacus nulla at consectetur
+                                      quam vestibulum ac arcu sed.
+                                  </p>
+                                  <img class="text-slide-img" src="https://demo.cocobasic.com/seppo-html/images/quote_image_03.jpg" alt="">
+                                  <p class="text-slide-name">Jane Williams</p>
+                                  <p class="text-slide-position">DESIGNER</p>
+                              </div></div><div class="owl-item animated owl-animated-out fadeOut" style="width: 244px; left: 237px;"><div class="text-slide">
+                                  <p class="text-slide-content">
+                                      Vivamus quis ante varius, pretium lectus ut, tempor eros maecenas vitae purus
+                                      lobortis, pulvinar lorem eu, porta elit suspendisse blandit porta magna, nec
+                                      scelerisque urna viverra lorem gravida.
+                                  </p>
+                                  <img class="text-slide-img" src="https://demo.cocobasic.com/seppo-html/images/quote_image_04.jpg" alt="">
+                                  <p class="text-slide-name">John Smith</p>
+                                  <p class="text-slide-position">GURU</p>
+                              </div></div><div class="owl-item animated owl-animated-in fadeIn" style="width: 244px;"><div class="text-slide">
+                                  <p class="text-slide-content">
+                                      Suspendisse enim erat, vehicula sit amet odio eu, congue gravida magna mauris a
+                                      ex aliquam, ornare tortor sit amet, placerat ante aenean sit amet sem et metus
+                                      elementum pellentesque.
+                                  </p>
+                                  <img class="text-slide-img" src="https://demo.cocobasic.com/seppo-html/images/quote_image_02.jpg" alt="">
+                                  <p class="text-slide-name">Peter Hall</p>
+                                  <p class="text-slide-position">CEO</p>
+                              </div></div><div class="owl-item cloned" style="width: 244px;"><div class="text-slide">
+                                  <p class="text-slide-content">
+                                      Vivamus quis ante varius, pretium lectus ut, tempor eros maecenas vitae purus
+                                      lobortis, pulvinar lorem eu, porta elit suspendisse blandit porta magna, nec
+                                      scelerisque urna viverra lorem gravida.
+                                  </p>
+                                  <img class="text-slide-img" src="https://demo.cocobasic.com/seppo-html/images/quote_image_04.jpg" alt="">
+                                  <p class="text-slide-name">John Smith</p>
+                                  <p class="text-slide-position">GURU</p>
+                              </div></div><div class="owl-item cloned" style="width: 244px;"><div class="text-slide">
+                                  <p class="text-slide-content">
+                                      Suspendisse enim erat, vehicula sit amet odio eu, congue gravida magna mauris a
+                                      ex aliquam, ornare tortor sit amet, placerat ante aenean sit amet sem et metus
+                                      elementum pellentesque.
+                                  </p>
+                                  <img class="text-slide-img" src="https://demo.cocobasic.com/seppo-html/images/quote_image_02.jpg" alt="">
+                                  <p class="text-slide-name">Peter Hall</p>
+                                  <p class="text-slide-position">CEO</p>
+                              </div></div><div class="owl-item cloned" style="width: 244px;"><div class="text-slide">
+                                  <p class="text-slide-content">
+                                      Curabitur cursus mattis ligula a maximus pellentesque in purus malesuada,
+                                      pharetra eros id, malesuada diam vivamus eu gravida lacus nulla at consectetur
+                                      quam vestibulum ac arcu sed.
+                                  </p>
+                                  <img class="text-slide-img" src="https://demo.cocobasic.com/seppo-html/images/quote_image_03.jpg" alt="">
+                                  <p class="text-slide-name">Jane Williams</p>
+                                  <p class="text-slide-position">DESIGNER</p>
+                              </div></div><div class="owl-item animated owl-animated-out fadeOut cloned" style="width: 244px; left: 237px;"><div class="text-slide">
+                                  <p class="text-slide-content">
+                                      Vivamus quis ante varius, pretium lectus ut, tempor eros maecenas vitae purus
+                                      lobortis, pulvinar lorem eu, porta elit suspendisse blandit porta magna, nec
+                                      scelerisque urna viverra lorem gravida.
+                                  </p>
+                                  <img class="text-slide-img" src="https://demo.cocobasic.com/seppo-html/images/quote_image_04.jpg" alt="">
+                                  <p class="text-slide-name">John Smith</p>
+                                  <p class="text-slide-position">GURU</p>
+                              </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
+                          <div class="clear"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.2.1/js/jquery.tooltipster.min.js" integrity="sha512-mmSw55EmRRGbCfB0lKHvPUpLFGUsuhI2YIb/j33FGOKiUThGp5+hF5gs+bAOE52TVeDIZ0Vyu1L19ChsfB4kjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+          function textSliderSettings() {
+              $(".text-slider").each(function () {
+                  var id = $(this).attr('id');
+                  var auto_value = window[id + '_auto'];
+                  var hover_pause = window[id + '_hover'];
+                  var speed_value = window[id + '_speed'];
+                  auto_value = (auto_value === 'true') ? true : false;
+                  hover_pause = (hover_pause === 'true') ? true : false;
+                  $('#' + id).owlCarousel({
+                      loop: true,
+                      autoHeight: false,
+                      smartSpeed: 1000,
+                      autoplay: auto_value,
+                      autoplayHoverPause: hover_pause,
+                      autoplayTimeout: speed_value,
+                      responsiveClass: true,
+                      dots: false,
+                      animateIn: 'fadeIn',
+                      animateOut: 'fadeOut',
+                      nav: true,
+                      items: 1
+                  });
+              });
+          }
+          textSliderSettings();
+      </script>
+             
+</div></body>`,
+});
 
 // ANGEL
 
